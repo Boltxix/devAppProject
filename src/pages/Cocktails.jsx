@@ -33,7 +33,7 @@ const Cocktails = () => {
     <div className="cocktails">
       <div className="display">
         {cocktailList.map(cocktail => (
-          <div className="cocktail" key= {cocktail.id}>
+          <div className="cocktail" key={cocktail.id}>
             <div className="img">
               <img src={cocktail.img} alt="" />
             </div>

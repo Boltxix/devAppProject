@@ -13,7 +13,7 @@ const Home = () => {
         <Link to='/cocktails'>
           <button >Cocktails</button>
         </Link>
-          
+
         <h3>Or Find out more about us</h3>
         <Link to='/about'>
           <button>About Page</button>
