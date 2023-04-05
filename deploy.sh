@@ -5,4 +5,4 @@ cd devAppProject/
 npm install
 echo $PRIVATE_KEY > privatekey.pem
 echo $SERVER > server.crt
-pm2 start ./bin/www --name devAppProject
+pm2 start ./src/index.js --name devAppProject

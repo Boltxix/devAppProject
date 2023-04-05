@@ -1,10 +1,12 @@
-import { createBrowserRouter, RouterProvider, Route, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./pages/About";
 import Cocktails from "./pages/Cocktails";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import "./style.scss"
+
+
 
 
 const Layout = () => {
